@@ -24,7 +24,7 @@
                         <include>APITestPost.java</include>
                     </includes>
                     <!-- 只运行包含‘smoke’标签的测试 -->
-                    <groups>smoke </groups>
+                    <groups> </groups>
                     <!-- 或者，使用排除 -->
                     <excludedGroups>slow | database</excludedGroups>
                     <!-- 支持逻辑运算符: & (and), | (or), ! (not) -->
