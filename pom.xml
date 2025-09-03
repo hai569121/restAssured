@@ -20,11 +20,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
-                    <!--
                     <includes>
-                        <include>APITestPost.java</include>
+                        <include>**/*.java</include>
                     </includes>
-                    -->
                     <!-- 只运行包含‘smoke’标签的测试 -->
                     <groups> </groups>
                     <!-- 或者，使用排除 -->
