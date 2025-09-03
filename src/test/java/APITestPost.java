@@ -13,6 +13,7 @@ import static org.hamcrest.Matchers.*;
 public class APITestPost {
 
     @Test
+    @Order(1)
     public void TestPost1() {
         //Map<String, String> headers = new HashMap<>();
         //headers.put("Content-Type", "application/json;charset=UTF-8");
@@ -30,6 +31,7 @@ public class APITestPost {
     }
 
     @Test
+    @Order(2)
     public void TestPost2() {
         given().
                 multiPart(new File("C:\\Users\\59612\\Desktop\\1.png")).
