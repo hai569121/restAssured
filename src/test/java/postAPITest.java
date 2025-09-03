@@ -14,7 +14,7 @@ public class postAPITest {
 
     @Test
     @Order(1)
-    public void postTest1() {
+    public void posttest1() {
         //Map<String, String> headers = new HashMap<>();
         //headers.put("Content-Type", "application/json;charset=UTF-8");
         String JsonString = "{\"title\":\"foo\",\"name\":\"张三\"}";
@@ -32,7 +32,7 @@ public class postAPITest {
 
     @Test
     @Order(2)
-    public void postTest2() {
+    public void posttest2() {
         given().
                 multiPart(new File("C:\\Users\\59612\\Desktop\\1.png")).
         when().
