@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @Tag("smoke")
-public class APITestPost {
+public class postAPITest {
 
     @Test
     @Order(1)
