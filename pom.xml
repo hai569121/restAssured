@@ -30,6 +30,13 @@
                     <!-- 支持逻辑运算符: & (and), | (or), ! (not) -->
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>3.0.0-M9</version> <!-- 使用最新版本 -->
+            </plugin>
+
         </plugins>
     </build>
 
